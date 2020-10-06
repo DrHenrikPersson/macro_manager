@@ -21,12 +21,12 @@ Click edit button to open imageJ macro editor and make any changes you see fit. 
 	
 ### Customize macro list  
 - File=>Add macro
--- Use dialogue to navigate to macro
+	- Use dialogue to navigate to macro
 - File=>Delete macro(s)
--- Use dialogue to delete macro(s)
--- Check which macros to DELETE 
+	- Use dialogue to delete macro(s)
+	- Check which macros to DELETE 
 -File=>Edit macro list
--- Shows txt file with macro paths. Can be used to add or delete manually. 
--- Use refresh GUI to see changes.
+	- Shows txt file with macro paths. Can be used to add or delete manually. 
+	- Use refresh GUI to see changes.
 - File=>Refresh GUI
--- Updates GUI by re-reading settings file
+	- Updates GUI by re-reading settings file
