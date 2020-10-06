@@ -28,7 +28,7 @@ import java.util.Vector;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.Checkbox;
-
+
 public class macro_manager implements PlugIn{
 
 	/*
@@ -75,7 +75,7 @@ public class macro_manager implements PlugIn{
 		}	
 		if(settingsFileExists)
 			refreshGui();//refreshGui works on first creation as well
-	}
+	}
 	
 	/*
 	* ---------------------------------------------------
@@ -165,7 +165,6 @@ public class macro_manager implements PlugIn{
 			IJ.showMessage("Exception thrown by readLines(), called from populateMacroArray()");
 		}    
 	}//populateMacroArray
-	
 
 	/*
 	* ---------------------------------------------------
@@ -228,7 +227,6 @@ public class macro_manager implements PlugIn{
 			return ""; // empty extension
     return fName.substring(lastIndexOf);//split at last period
 	}
-
 	
 	/*
 	* ---------------------------------------------------
@@ -344,8 +342,6 @@ public class macro_manager implements PlugIn{
 		emptyPanel.add(emptyLabel1);
 		emptyPanel.add(emptyLabel2);
 		
-		
-		
 		JMenuBar mb = buildJMenuBar();
 		mainFrame.add(emptyPanel);
 		mainFrame.setJMenuBar(mb);
@@ -416,7 +412,7 @@ public class macro_manager implements PlugIn{
 			editBtns[row].setFocusPainted(false);
 			editBtns[row].setContentAreaFilled(false);
 			
-			//update constraints, add edit button
+			//update constraints, add edit button
 			c.gridx=1;			
 			c.gridy=row;
 			c.weightx=.3;
@@ -515,12 +511,11 @@ public class macro_manager implements PlugIn{
 		helpMenu.add(itemInstructions);
 		helpMenu.add(itemAbout);
 		
-		//add menus to menubar
+		//add menus to menubar
 		mb.add(filemenu);
 		mb.add(helpMenu);
 		return mb;
 	}//buildJMenuBar
-	
 
 	/*
 	* ---------------------------------------------------
@@ -560,7 +555,6 @@ public class macro_manager implements PlugIn{
 			else {//file selection canceled
 				//IJ.showMessage("No macro selected.");
 			}
-
 	}//addMacro()
 
 	/*
@@ -622,7 +616,6 @@ public class macro_manager implements PlugIn{
 			//update GUI
 			refreshGui();
 		}//if ok was clicked
-
 	}
 	
 	/* 
@@ -771,7 +764,7 @@ class macro{
 		this.path=path;
 	}
 
-//get macro path
+	//get macro path
 	public String getPath(){
 		return this.path;
 	}
