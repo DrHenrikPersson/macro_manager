@@ -1,6 +1,6 @@
 # macro_manager
 Macro Manager is a plugin for ImageJ to manage your own macros and allow simple execution and editing.  
-Original plugin writte in April 2020\
+Original plugin written in April 2020\
 Repository created 2020-10-06
   
 ## Installation
