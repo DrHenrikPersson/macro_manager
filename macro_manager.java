@@ -388,9 +388,7 @@ public class macro_manager implements PlugIn{
 				}  
 			});
 			
-			//launch button aesthetics
-			btns[row].setFocusPainted(false);
-			btns[row].setContentAreaFilled(false);
+			//launch button alignment
 			btns[row].setHorizontalAlignment(SwingConstants.LEFT);			
 					
 			//update constraints, add launch button
@@ -408,9 +406,6 @@ public class macro_manager implements PlugIn{
 					IJ.run("Edit...", "open=["+tmpMacroPath+"]");//code to edit the macroPath at work. Brackets, [], are needed around path
 				}  
 			});
-			//edit button aesthetics
-			editBtns[row].setFocusPainted(false);
-			editBtns[row].setContentAreaFilled(false);
 			
 			//update constraints, add edit button
 			c.gridx=1;			
@@ -703,7 +698,6 @@ public class macro_manager implements PlugIn{
 	" \n"+
 	" \n"+
 	" \n"+
-
 	"                     Customize macro list\n" + 
 	"*******************************************************************\n" + 
 	"File=>Add macro\n" +
@@ -774,9 +768,5 @@ class macro{
 		return this.name;
 	}
 		
-	//get macro preview message
-	public String getPreview(){
-		return preview;
-	}
 	
 }//macro class
