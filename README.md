@@ -7,7 +7,7 @@ Repository created 2020-10-06
 1. Download the file macro_manager.java
 2. Move it to .../imageJ/plugins/Macro Manager
 3. Run imageJ
-4. Click *Plugins=>Compile and Run/*  
+4. Click *Plugins=>Compile and Run*  
 ImageJ should compile the code and add the compiled files to your .../imageJ/plugins/Macro Manager folder. The plugin should automatically show up in ImageJ's plugin menu next time you use run ImageJ.
 
 ## General instructions
