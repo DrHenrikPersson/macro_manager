@@ -46,8 +46,8 @@ public class macro_manager implements PlugIn{
 	//Size settings for GUI
 	int gap = 5;//gap for buttons etc
 	int frameWidth = 275;
-	int baseHeight = 50;
-	int framHeightPerButton = 35;
+	int baseHeight = 70;
+	int framHeightPerButton = 25;
 	
 	//about this version
 	String version = "1.1";//version name
